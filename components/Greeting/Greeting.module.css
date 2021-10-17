@@ -1,0 +1,21 @@
+.title {
+    color: #ffff;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: hsl(0, 0%, 95%);
+    font-size: 0.9rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 0.75rem;
+    }
+}
