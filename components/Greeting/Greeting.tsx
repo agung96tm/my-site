@@ -7,7 +7,7 @@ const Greeting = () => {
                 Welcome Friend 👋
             </p>
             <p className={styles.subtitle}>
-                "Scroll to down" if you interest with me 😉
+                Scroll to down if you interest with me 😉
             </p>
         </div>
     )

@@ -41,7 +41,7 @@ const Profile = () => {
 
             <div className={styles.social_media}>
                 {socialMedia.map((socialMedia: any) => (
-                    <Link key={socialMedia.name} href={socialMedia.link}>
+                    <Link passHref={true} key={socialMedia.name} href={socialMedia.link}>
                         <div className={styles.social_media__Social}>
                             <FontAwesomeIcon className={styles.social_media__Icon} icon={socialMedia.icon} />
                             {socialMedia.name}
